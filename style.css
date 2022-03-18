@@ -29,17 +29,15 @@
     margin: 0;
     width: 100%;
     padding: 0 1rem;
+    padding-top: 0.8em;
   }
 
   #lezioni .row{
     margin: 0;
     background-color: #f2f2cd;
-    padding-top: 0.5em;
   }
 
   #lezioni h1{
-    font-size: 1.5rem;
-    font-weight: bolder;;
     margin-bottom: 0.8rem;
   }
 
@@ -48,13 +46,6 @@
     width: 100%;
     float: none;
     margin-bottom: 0.8rem;
-  }
-
-  #lezioni .row h3{
-    font-size: 1rem;
-  }
-  #lezioni .row div{
-    font-size: 0.8rem;
   }
 
 }
@@ -73,6 +64,21 @@
 
 @media  screen and (max-width: 426px){
 
+  #steps .row{
+    background-color: white;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-bottom: 0.8rem;
+  }
+
+  #steps h1{
+    margin-bottom: 0.8rem;
+  }
 }
 
 /* BLOCCO PERCHE */
@@ -95,6 +101,26 @@
 
 @media  screen and (max-width: 426px){
 
+  #why .row{
+    background-color: #f2f2cd;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+
+  }
+
+  #why h1{
+    margin-bottom: 0.8rem;
+  }
+
+  #why hr{
+    border-top: 2px solid #666666;
+  }
 }
 
 /* COMMON */
@@ -117,14 +143,29 @@ img {
 }
 
 @media  screen and (max-width: 426px){
-
+  /* RESET   */
   *{
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
   }
-
+  /* ELEMENTI HTML  */
   img{
     height: 100px;
   }
+
+  h1{
+    font-size: 1.5rem;
+  }
+  
+
+  h3{
+    font-size: 1rem;
+  }
+  
+  div{
+    font-size: 0.8rem;
+  }
+
 }
+
